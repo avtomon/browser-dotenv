@@ -1,0 +1,4 @@
+{
+    "name": "avtomon/browser-dotenv",
+    "description": ".env files import & parse"
+}
