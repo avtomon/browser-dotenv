@@ -1,4 +1,4 @@
 {
-    "name": "avtomon/browser-dotenv",
+    "name": "avtomon/browser-dotenv.js",
     "description": ".env files import & parse"
 }
