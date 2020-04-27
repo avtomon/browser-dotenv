@@ -13,7 +13,7 @@ export class BrowserDotenv {
      */
     public static async import(configUrl : string) {
         await Promise.all(Utils.GoodFuncs.getScripts(['/vendor/avtomon/browser-dotenv.js/dist/dotenv.js']));
-        fetch(configUrl).then(async function (response : Response) {
+        await fetch(configUrl).then(async function (response : Response) {
             const rawEnvs : string = await response.text();
             window[BrowserDotenv.ENV_WINDOW_PROPERTY] = dotenv.parse(rawEnvs)
         });
