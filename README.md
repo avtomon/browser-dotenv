@@ -1,1 +1,1 @@
-# browser-dotenv
+# browser-dotenv.js
